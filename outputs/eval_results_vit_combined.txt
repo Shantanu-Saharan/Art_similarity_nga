@@ -1,0 +1,10 @@
+Model: vit
+Feature mode: combined
+n_queries: 38
+top_k: 10
+n_queries: 38.0000
+mean_precision_at_1: 0.4474
+mean_precision_at_5: 0.2842
+mean_precision_at_10: 0.1763
+mean_average_precision: 0.5423
+mean_ssim_top3: 0.3727
