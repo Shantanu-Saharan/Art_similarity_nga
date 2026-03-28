@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+data/raw/images/
+outputs/
+models/
+*.faiss
+*.npy
+*.joblib
+
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
