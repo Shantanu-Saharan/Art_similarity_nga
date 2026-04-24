@@ -1,8 +1,8 @@
-# 🔧 Improvements & Evolution
+# Improvements & Evolution
 
 ---
 
-## 📈 Performance Improvements
+## Performance Improvements
 
 - Better semantic matching
 - Reduced incorrect retrievals
@@ -10,25 +10,43 @@
 
 ---
 
-## 🧠 Architecture Evolution
+## Pipeline Overview
 
-![Architecture Evolution](results/images/architecture_evolution.png)
-
----
-
-## 🔍 Before vs After
-
-![Before After](results/images/before_vs_after.png)
+![Pipeline Overview](results/task2_fair_benchmark/images/pipeline_overview.png)
 
 ---
 
-## ⚡ FAISS Integration
+## Architecture Evolution
 
-![FAISS](results/images/faiss_workflow.png)
+![Architecture Evolution](results/task2_fair_benchmark/images/architecture_evolution.png)
 
 ---
 
-## 🧪 Methods Explored
+## Before vs After
+
+![Before After](results/task2_fair_benchmark/images/before_vs_after.png)
+
+---
+
+## Embedding Comparison
+
+![Embedding Comparison](results/task2_fair_benchmark/images/embedding_comparison.png)
+
+---
+
+## FAISS Integration
+
+![FAISS](results/task2_fair_benchmark/images/faiss_workflow.png)
+
+---
+
+## Top-K Retrieval
+
+![Top-K Results](results/task2_fair_benchmark/images/topk_results.png)
+
+---
+
+## Methods Explored
 
 ### 1. CNN-based Features
 - Initial baseline
@@ -48,7 +66,7 @@
 
 ---
 
-## 🏆 Final Approach
+## Final Approach
 
 - Embedding-based similarity
 - FAISS indexing
@@ -56,8 +74,9 @@
 
 ---
 
-## 🎯 Key Takeaways
+## Key Takeaways
 
 - Embeddings outperform CNN features
 - FAISS improves scalability
 - Combining techniques yields best results
+
