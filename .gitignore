@@ -1,0 +1,29 @@
+.venv/
+venv/
+.history/
+__pycache__/
+*.pyc
+*.pyo
+
+logs/
+
+data/raw/images/
+outputs/
+# Model weights and checkpoints (but NOT source code)
+models/*.pth
+models/*.pt
+models/*.ckpt
+models/*.index
+models/*.joblib
+!models/.gitkeep
+
+# But ALLOW src/models/ (source code)
+!src/models/
+!src/models/*.py
+*.faiss
+*.npy
+*.joblib
+
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db

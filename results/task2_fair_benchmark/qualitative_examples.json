@@ -1,0 +1,158 @@
+[
+  {
+    "case": "strong_retrieval",
+    "query_objectid": 75,
+    "query_title": "Portrait of a Member of the Haarlem Civic Guard",
+    "query_artist_name": "Hals, Frans",
+    "first_relevant_rank": 1,
+    "precision@5": 1.0,
+    "ap@10": 1.0,
+    "comment": "Relevant matches appear immediately, and the top of the list stays inside a tight artist cluster.",
+    "top5_neighbors": [
+      {
+        "rank": 1,
+        "objectid": 78,
+        "title": "Portrait of a Young Man",
+        "artist_name": "Hals, Frans",
+        "score": 0.9990005493164062,
+        "relevant": true
+      },
+      {
+        "rank": 2,
+        "objectid": 1167,
+        "title": "Portrait of a Man",
+        "artist_name": "Hals, Frans",
+        "score": 0.9174607992172241,
+        "relevant": true
+      },
+      {
+        "rank": 3,
+        "objectid": 571,
+        "title": "A Young Man in a Large Hat",
+        "artist_name": "Hals, Frans",
+        "score": 0.8362552523612976,
+        "relevant": true
+      },
+      {
+        "rank": 4,
+        "objectid": 77,
+        "title": "Adriaen van Ostade",
+        "artist_name": "Hals, Frans",
+        "score": 0.8244529962539673,
+        "relevant": true
+      },
+      {
+        "rank": 5,
+        "objectid": 1168,
+        "title": "Portrait of a Gentleman",
+        "artist_name": "Hals, Frans",
+        "score": 0.7968277931213379,
+        "relevant": true
+      }
+    ]
+  },
+  {
+    "case": "typical_retrieval",
+    "query_objectid": 13,
+    "query_title": "Madonna and Child with Donor",
+    "query_artist_name": "Lippo Memmi",
+    "first_relevant_rank": 8,
+    "precision@5": 0.0,
+    "ap@10": 0.125,
+    "comment": "The shortlist contains meaningful matches, but it also mixes in looser style-level neighbors.",
+    "top5_neighbors": [
+      {
+        "rank": 1,
+        "objectid": 892,
+        "title": "Madonna and Child, with the Blessing Christ [middle panel]",
+        "artist_name": "Lorenzetti, Pietro",
+        "score": 0.8063377737998962,
+        "relevant": false
+      },
+      {
+        "rank": 2,
+        "objectid": 33,
+        "title": "Christ Blessing",
+        "artist_name": "Grifo di Tancredi",
+        "score": 0.7863590717315674,
+        "relevant": false
+      },
+      {
+        "rank": 3,
+        "objectid": 417,
+        "title": "Madonna and Child with Saint Jerome, Saint Bernardino, and Angels",
+        "artist_name": "Sano di Pietro",
+        "score": 0.7677862048149109,
+        "relevant": false
+      },
+      {
+        "rank": 4,
+        "objectid": 893,
+        "title": "Saint Catherine of Alexandria, with an Angel [right panel]",
+        "artist_name": "Lorenzetti, Pietro",
+        "score": 0.7526392340660095,
+        "relevant": false
+      },
+      {
+        "rank": 5,
+        "objectid": 397,
+        "title": "Madonna and Child",
+        "artist_name": "Giotto",
+        "score": 0.7508553266525269,
+        "relevant": false
+      }
+    ]
+  },
+  {
+    "case": "hard_case",
+    "query_objectid": 5,
+    "query_title": "The Madonna of Humility",
+    "query_artist_name": "Angelico, Fra",
+    "first_relevant_rank": null,
+    "precision@5": 0.0,
+    "ap@10": 0.0,
+    "comment": "This query is difficult: retrieval leans more on broad composition and style than on artist identity.",
+    "top5_neighbors": [
+      {
+        "rank": 1,
+        "objectid": 396,
+        "title": "Madonna and Child Enthroned",
+        "artist_name": "Gentile da Fabriano",
+        "score": 0.8137177228927612,
+        "relevant": false
+      },
+      {
+        "rank": 2,
+        "objectid": 417,
+        "title": "Madonna and Child with Saint Jerome, Saint Bernardino, and Angels",
+        "artist_name": "Sano di Pietro",
+        "score": 0.7500377297401428,
+        "relevant": false
+      },
+      {
+        "rank": 3,
+        "objectid": 33,
+        "title": "Christ Blessing",
+        "artist_name": "Grifo di Tancredi",
+        "score": 0.7160630822181702,
+        "relevant": false
+      },
+      {
+        "rank": 4,
+        "objectid": 397,
+        "title": "Madonna and Child",
+        "artist_name": "Giotto",
+        "score": 0.6913446187973022,
+        "relevant": false
+      },
+      {
+        "rank": 5,
+        "objectid": 344,
+        "title": "The Coronation of the Virgin with Six Angels",
+        "artist_name": "Gaddi, Agnolo",
+        "score": 0.6814414262771606,
+        "relevant": false
+      }
+    ]
+  }
+]

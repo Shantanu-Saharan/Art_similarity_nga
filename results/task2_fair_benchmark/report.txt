@@ -1,0 +1,43 @@
+Task-2 fair benchmark images: 300
+Weights: resnet50=0.38, efficientnet_b0=0.26, vit_finetuned=0.36
+DBA: top_k=2, alpha=3.00
+Face rerank: mode=hybrid, weight=0.10, top_n=20, padding=0.20, min_rel_area=0.0000
+
+=== OUR RESULTS ===
+precision@1: 0.348039
+precision@5: 0.220588
+precision@10: 0.152451
+recall@5: 0.317420
+recall@10: 0.424275
+map@10: 0.296091
+mrr: 0.420647
+queries_evaluated: 204.000000
+
+=== COMPETITOR BASELINE ===
+precision@10: 0.112981
+recall@10: 0.332479
+map@10: 0.244879
+mrr: 0.377223
+
+=== IMPROVEMENT ===
+precision@10: 1.35x
+recall@10: 1.28x
+map@10: 1.21x
+mrr: 1.12x
+
+=== QUALITATIVE EXAMPLES ===
+Strong Retrieval: 75 | Portrait of a Member of the Haarlem Civic Guard | Hals, Frans
+  Relevant matches appear immediately, and the top of the list stays inside a tight artist cluster.
+  - 1. 78 | Portrait of a Young Man | Hals, Frans | relevant
+  - 2. 1167 | Portrait of a Man | Hals, Frans | relevant
+  - 3. 571 | A Young Man in a Large Hat | Hals, Frans | relevant
+Typical Retrieval: 13 | Madonna and Child with Donor | Lippo Memmi
+  The shortlist contains meaningful matches, but it also mixes in looser style-level neighbors.
+  - 1. 892 | Madonna and Child, with the Blessing Christ [middle panel] | Lorenzetti, Pietro | non-relevant
+  - 2. 33 | Christ Blessing | Grifo di Tancredi | non-relevant
+  - 3. 417 | Madonna and Child with Saint Jerome, Saint Bernardino, and Angels | Sano di Pietro | non-relevant
+Hard Case: 5 | The Madonna of Humility | Angelico, Fra
+  This query is difficult: retrieval leans more on broad composition and style than on artist identity.
+  - 1. 396 | Madonna and Child Enthroned | Gentile da Fabriano | non-relevant
+  - 2. 417 | Madonna and Child with Saint Jerome, Saint Bernardino, and Angels | Sano di Pietro | non-relevant
+  - 3. 33 | Christ Blessing | Grifo di Tancredi | non-relevant

@@ -1,0 +1,9 @@
+Best benchmark variant: control_t20_w010
+selection_score: 0.323366
+precision@1: 0.348039
+precision@5: 0.220588
+precision@10: 0.152451
+recall@5: 0.317420
+recall@10: 0.424275
+map@10: 0.296091
+mrr: 0.420647
